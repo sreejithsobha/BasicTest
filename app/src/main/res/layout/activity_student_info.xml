@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.basictest.StudentInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+        />
+
+
+        <TextView
+            android:id="@+id/studentdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Student Details"
+            android:textColor="@color/colorMaroon"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/rollno"
+            android:layout_width="250dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Roll No"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="250dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Mobile"
+            android:inputType="phone"
+            android:textColorHint="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:padding="12dp"
+            android:text="Save" />
+        />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
